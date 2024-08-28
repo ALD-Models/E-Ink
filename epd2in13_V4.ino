@@ -32,8 +32,7 @@ void setup()
 
   paint.SetRotate(ROTATE_90);
   paint.Clear(UNCOLORED);
-  paint.DrawStringAt(20, 50, "FIRMWARE-LOADING", &Font24, COLORED);
-  //paint.DrawStringAt(8, 80, "JakeLofthouse", &Font16, COLORED);
+  paint.DrawStringAt(20, 50, "Hello World", &Font24, COLORED);
   epd.Display1(image);
   
 
